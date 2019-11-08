@@ -1,12 +1,28 @@
 .main{
     font-family: 'Roboto', sans-serif;
-    font: 20px;
+    font-size: 20px;
 
     text-align: center;
 }
 
 .container{
+    background-color: white;
+    max-width: 80%;
 
-    background-color: #E6ECF0;
+    
+
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+
 }
 
+body{
+    background-color: #F8F7F2;
+}
+
+#bannerimg{
+    max-width: 600px;
+}
+
+.caption{
+    font-size: 20px;
+}

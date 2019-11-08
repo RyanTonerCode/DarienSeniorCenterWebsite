@@ -1,52 +1,75 @@
 
+#fullnav{
+      width: 80%;
+      max-width: 80%;
+
+      margin: 0 auto;
+
+      text-align: center;
+      position: sticky;
+
+      background-color: lightgray;
+
+      height: 72px;
+}
+
 nav{
-    width: 100%;
-    height: 2em;
+    height: 100%;  
+    width: 100% - 210px;
+
     text-align: center;
-    background-color: lightblue;
+    background-color: #152A3D;
 
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bolder;
 
+    margin-left: 210px;
 
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+    
 } 
 
-#logo img{
-
-    width: 50px; 
-    height: 10px; 
-    float: right; 
-    position: absolute;
+#logo {
+    width: 200px; 
+    margin: 0;
+    padding: 0;  
+    float: left;
 }
 
 .clear {
-        clear: both;
-      }  
+      clear: both;
+}  
 
       
 li {
-        float: left;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        border-right: 1px solid #bbb;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-      }
-      
+      float: left;
+      list-style-type: none;
+      padding: 0;
+      margin-left: 5px;
+
+
+      width: 150px; /* Four links of equal widths */
+      height: 100%;
+
+      border-right: 2px solid lightgray;
+}
+   
+
 li a {
         display: block;
         color: white;
+        padding: 18px 16px;
         text-align: center;
-        padding: 14px 16px;
         text-decoration: none;
-      }
+        height: 100%;
+
+}
       
       /* Change the link color to #111 (black) on hover */
 li a:hover {
-        background-color: #111;
-      }
+      background-color: darkblue;
+      color: white;
+}
 
-.active {
-        background-color: burlywood;
-      }
+
