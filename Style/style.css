@@ -1,16 +1,14 @@
-
 #fullnav{
       width: 80%;
       max-width: 80%;
-
       margin: 0 auto;
-
       text-align: center;
-      position: sticky;
-
-      background-color: lightgray;
-
+      position: fixed;
+      top: 0;
+      left: 10%;
+      background-color: #c3cce8;
       height: 72px;
+      z-index: 1000;
 }
 
 nav{
@@ -27,7 +25,6 @@ nav{
     margin-left: 210px;
 
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
-    
 } 
 
 #logo {
@@ -46,30 +43,30 @@ li {
       float: left;
       list-style-type: none;
       padding: 0;
-      margin-left: 5px;
 
-
-      width: 150px; /* Four links of equal widths */
+      width: 150px;
       height: 100%;
-
+      
       border-right: 2px solid lightgray;
 }
    
 
 li a {
-        display: block;
-        color: white;
-        padding: 18px 16px;
-        text-align: center;
-        text-decoration: none;
-        height: 100%;
-
-}
+      color: white;
+      text-align: center;
+      height: 72px;
+      line-height: 72px;
+      width: 100%;
       
-      /* Change the link color to #111 (black) on hover */
+      display: inline-block;
+}
+
 li a:hover {
-      background-color: darkblue;
+      background-color: #7d9dff;
       color: white;
 }
 
 
+.active{
+      background-color: #15648B;
+}

@@ -6,10 +6,9 @@
 }
 
 .container{
+    margin-top: 72px;
     background-color: white;
     max-width: 80%;
-
-    
 
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
 
@@ -20,7 +19,7 @@ body{
 }
 
 #bannerimg{
-    max-width: 600px;
+    max-width: 820px;
 }
 
 .caption{
