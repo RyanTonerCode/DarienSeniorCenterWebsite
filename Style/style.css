@@ -1,31 +1,31 @@
 #fullnav{
-      width: 80%;
-      max-width: 80%;
-      margin: 0 auto;
-      text-align: center;
-      position: fixed;
-      top: 0;
-      left: 10%;
-      background-color: #c3cce8;
-      height: 72px;
-      z-index: 1000;
+	width: 80%;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 10%;
+	background-color: #c3cce8;
+	height: 72px;
+	z-index: 1000;
 }
 
 nav{
-    height: 100%;  
-    width: 100% - 210px;
+	height: 100%;  
+	width: 100% - 210px;
 
-    text-align: center;
-    background-color: #152A3D;
+	text-align: center;
+	background-color: #152A3D;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: bolder;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
 
-    margin-left: 210px;
+	margin-left: 210px;
 
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
-} 
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+}
 
 #logo {
     width: 200px; 
@@ -35,38 +35,109 @@ nav{
 }
 
 .clear {
-      clear: both;
+	clear: both;
 }  
 
       
-li {
-      float: left;
-      list-style-type: none;
-      padding: 0;
+nav li {
+	float: left;
+	list-style-type: none;
+	padding: 0;
 
-      width: 150px;
-      height: 100%;
-      
-      border-right: 2px solid lightgray;
+	width: 150px;
+	height: 100%;
+
+	border-right: 2px solid lightgray;
 }
    
 
-li a {
-      color: white;
-      text-align: center;
-      height: 72px;
-      line-height: 72px;
-      width: 100%;
-      
-      display: inline-block;
+nav li a {
+	color: white;
+	text-align: center;
+	height: 72px;
+	line-height: 72px;
+	width: 100%;
+
+	display: inline-block;
 }
 
-li a:hover {
-      background-color: #7d9dff;
-      color: white;
+nav li a:hover {
+	background-color: #7d9dff;
+	color: white;
 }
 
 
 .active{
       background-color: #15648B;
 }
+
+@media only screen and (max-width: 1030px) {
+	
+	#fullnav{
+		height: 50px;
+		margin-left: 0px;
+		width: 100%;
+		max-width: 100%;
+		left: 0%;
+	}
+	
+	#logo{
+		height: 50px;
+		width: auto;
+	}
+	
+	nav{
+		font-size: 20px;
+		height: 50px;
+		margin-left: 170px;
+	}
+	
+	nav li {
+		width: 125px;
+		height: 50px;
+	}
+	
+	nav li a {
+		height: 50px;
+      	line-height: 50px;
+	}
+	
+	.container{
+		margin-top: 50px;
+		max-width: 100%
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	
+	#fullnav{
+		height: 45px;
+	}
+	
+	#logo{
+		height: 45px;
+	}
+	
+	nav{
+		font-size: 12px;
+		height: 45px;
+		margin-left: 140px;
+	}
+	
+	nav li {
+		width: 80px;
+		height: 45px;
+	}
+	
+	nav li a {
+		height: 45px;
+      	line-height: 45px;
+	}
+	
+	.container{
+		margin-top: 45px;
+	}
+}
+
+
+
