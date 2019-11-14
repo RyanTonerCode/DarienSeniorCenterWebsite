@@ -1,63 +1,56 @@
-.main{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-
-    text-align: center;
+.main {
+  font-family: 'Roboto', Verdana, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-.container{
-    margin-top: 72px;
-    background-color: white;
-    max-width: 80%;
-
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+.container {
+  margin-top: 72px;
+  background-color: white;
+  max-width: 80%;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
 }
 
-.caption{
-	font-size: 30px;
+.caption {
+  font-size: 30px;
 }
 
-body{
-    background-color: #F8F7F2;
+#bannerimg {
+  min-width: 520px;
+  max-width: 55%;
+  border: 5px solid darkblue;
+  border-radius: 25px;
 }
 
-#bannerimg{
-    min-width: 520px;
-	max-width: 55%;
-	border: 5px solid darkblue;
-	border-radius: 25px;
+.galleryimg {
+  border-radius: 25px;
 }
 
-.galleryimg{
-	border-radius: 25px;
+.odd {
+  background-color: aliceblue;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
 }
 
-.odd{
-	background-color: aliceblue;
-	border-top: 1px solid blue;
-	border-bottom: 1px solid blue;
-}
-
-.galleryimg{
-	object-fit: scale-down;
-	width: auto;
-    height: 500px;
+.galleryimg {
+  object-fit: scale-down;
+  width: auto;
+  height: 500px;
 }
 
 @media only screen and (min-width: 2400px) {
-	#bannerimg{
-		max-width: 50%;
-		
-	}
-	
-	.galleryimg{
-		max-height: 900px;
-		border: none;
-	}
-	
-	.galleryimg{
-		object-fit: scale-down;
-		width: auto;
-		height: 640px;
-	}
+  #bannerimg {
+    max-width: 50%;
+  }
+
+  .galleryimg {
+    max-height: 900px;
+    border: none;
+  }
+
+  .galleryimg {
+    object-fit: scale-down;
+    width: auto;
+    height: 640px;
+  }
 }

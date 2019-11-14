@@ -1,28 +1,54 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Darien Mather Senior Center Website</title>
-  <meta name="description" content="Updated site in collaboration with Beth Paris">
-  <meta name="author" content="Fairfield University">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    
-    
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-</head>
-
-<body>
-    
-    <h1 class="bg-dark">Demo</h1>
-    
+   <head>
+      <meta charset="utf-8">
+      <title>Darien Mather Senior Center Home Page</title>
+      <meta name="description" content="Image collection of revelant gallery photos and details">
+      <meta name="author" content="Fairfield University">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../Style/home.css">
+      <link rel="stylesheet" href="../Style/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div id="fullnav">
+         <img src="../Images/darien-header-logo.svg" id="logo" alt="header logo" />
+         <nav>
+            <div><a href="Home.html" class="active">Home</a></div>
+            <div><a href="AboutUs.html">About</a></div>
+            <div><a href="Gallery.html" >Gallery</a></div>
+         </nav>
+      </div>
+      <div class="container text-center p-4">
+         <h1>Welcome to Darien Mather Senior Center!</h1>
+         <img id="mainimg" class="img-fluid" src="../Images/Home/fitness.jpg" alt="Fitness group image"> 
+         <p>At the <span class="name">Darien Senior Programs </span>, our mission is to nurture the physical, intellectual,
+            and social well-being of the senior community aged 55 or better by providing a comprehensive 
+            and coordinated system of services that enhance individual lives, promotes well-being, dignity 
+            and independence throughout the aging process and keep members connected and integrated into the 
+            community by collaborating with other agencies and organizations who provide support programs and 
+            social services to senior, thereby enhancing the independence and wholesome lifestyle for seniors in Darien.
+         </p>
+         <p> Our programs are evolving - please refer to our monthly newsletter for the most 
+            up to date program offerings. 
+         </p>
+		  <form action="../Content/newsletter.pdf" target="_blank">
+         	<button>Monthly Newsletter</button>
+		  </form>
+      </div>
+      <div id="ftr"></div>
+	   
+	   	   <script
+		   src="https://code.jquery.com/jquery-3.4.1.min.js"
+		   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		   crossorigin="anonymous">
+		</script>
+	   <script>
+		   $("#ftr").load("footer.html");
+		</script>
+	   
+   </body>
 	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-</body>
-    
-    
 </html>

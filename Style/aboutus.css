@@ -1,0 +1,141 @@
+body {
+  font-family: 'Roboto', Verdana, Arial, sans-serif;
+  line-height: 2.0;
+  font-size: 22px;
+  color: black;
+}
+
+.container {
+  margin-top: 72px;
+  background-color: white;
+  max-width: 80%;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+}
+
+h1, h2 {
+  color: darkblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 5px;
+  text-shadow: 3px 3px 3px #FFFFFF;
+}
+
+header{
+  padding-bottom: 20px;
+}
+
+aside {
+	float: right;
+  width: 30%;
+  padding: 0 2.5%;
+}
+
+aside img {
+  margin-bottom: 15px;
+}
+
+main {
+  width: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 60%;
+  margin-left: 5%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #3399cc;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid #3399cc;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+tr {
+  background-color: #f5fafc;
+}
+
+.credit {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(../Images/AboutUs/Darien.jpg);
+  height: 250px;
+  background-color: skyblue;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.embed-resp{
+	position: relative;
+    width: 100%;
+    height: 600px;
+}
+embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1030px) {
+  h1 {
+    margin: 0;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  aside {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 200%;
+  }
+}
+
