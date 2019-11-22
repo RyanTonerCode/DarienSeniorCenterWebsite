@@ -1,0 +1,49 @@
+p{
+    font-size: 20px;
+}
+
+
+.container {
+  margin-top: 72px;
+  background-color: white;
+  max-width: 80%;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+}
+
+
+
+.menu{
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.chef{
+    max-width: 70%;;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+
+@media only screen and (max-width: 1030px) {
+
+
+    #chefimg{
+        max-width: 250px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .chef{
+        font-size: 18px;
+    }
+
+    .menu{
+        font-size: 17px;
+    }
+
+    
+}

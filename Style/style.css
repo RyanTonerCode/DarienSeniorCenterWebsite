@@ -127,12 +127,12 @@ footer a:hover {
     margin-left: 170px;
   }
 
-  nav li {
+  nav div {
     width: 125px;
     height: 50px;
   }
 
-  nav li a {
+  nav div a {
     height: 50px;
     line-height: 50px;
   }
@@ -168,12 +168,12 @@ footer a:hover {
     margin-left: 140px;
   }
 
-  nav li {
+  nav div {
     width: 80px;
     height: 45px;
   }
 
-  nav li a {
+  nav div a {
     height: 45px;
     line-height: 45px;
   }
@@ -181,6 +181,7 @@ footer a:hover {
   .container {
     margin-top: 45px;
   }
+
 }
 
 
