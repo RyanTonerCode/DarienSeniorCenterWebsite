@@ -20,11 +20,17 @@ body p {
 #mainimg {
   max-width: 70%;
   margin-bottom: 4vh;
+  border: 2px solid black;
+  box-shadow: 5px 5px lightblue;
 }
 
 .name {
   color: blue;
   font-size: 1.02em;
+}
+
+h1{
+	color: darkblue;
 }
 
 button {

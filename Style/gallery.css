@@ -11,6 +11,11 @@
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
 }
 
+
+h1,h2{
+	color: darkblue;
+}
+
 .caption {
   font-size: 30px;
 }

@@ -1,6 +1,7 @@
 #fullnav {
   width: 80%;
   max-width: 80%;
+  min-width: 800px;
   margin: 0 auto;
   text-align: center;
   position: fixed;
@@ -74,23 +75,18 @@ body {
   height: 275px;
   display: block;
   padding-top: 20px;
+  padding-left: 4vw;
+  padding-right: 50px;
 }
 
 #footer img {
   padding: 0px;
   margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 110px;
 }
 
-#footer-lft {
-  float: left;
-  margin-left: 100px;
-  padding-right: 200px;
-}
-
-#footer-rgt {
-  float: right;
-  margin-right: 200px;
-}
 
 #footer-title {
   font-size: 1.8em;
@@ -106,7 +102,7 @@ footer a:hover {
   color: goldenrod;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1200px) {
 	
   #fullnav {
     height: 50px;
@@ -142,14 +138,6 @@ footer a:hover {
     max-width: 100%;
   }
 
-  #footer-lft {
-    margin-left: 50px;
-    padding-right: 100px;
-  }
-
-  #footer-rgt {
-    margin-right: 50px;
-  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -185,3 +173,32 @@ footer a:hover {
 }
 
 
+@media only screen and (max-width: 800px) {
+  #fullnav {
+    height: 40px;
+  }
+
+  #logo {
+    height: 40px;
+  }
+
+  nav {
+    font-size: 12px;
+    height: 40px;
+    margin-left: 120px;
+  }
+
+  nav div {
+    width: 60px;
+    height: 40px;
+  }
+
+  nav div a {
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .container {
+    margin-top: 40px;
+  }
+}
