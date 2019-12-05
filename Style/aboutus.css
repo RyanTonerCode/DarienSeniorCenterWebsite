@@ -95,6 +95,9 @@ tr {
   background-position: left;
   background-repeat: no-repeat;
 }
+#faqLink { 
+  padding-left: 20px;
+}
 
 .embed-resp{
 	position: relative;
