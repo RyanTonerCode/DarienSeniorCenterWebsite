@@ -40,12 +40,13 @@ button {
   color: black;
   text-transform: uppercase;
   border-radius: 20px;
-  background: lightblue;
+  background-color: lightsteelblue;
   margin-top: 3vh;
   margin-bottom: 4vh;
 }
 
 button:hover {
-  background: linear-gradient(57deg,lightblue, aqua);
+  background-color: #555555;;
+  color: white;
   text-decoration: underline;
 }
