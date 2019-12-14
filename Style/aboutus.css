@@ -131,18 +131,20 @@ embed{
   h1 {
     margin: 0;
   }
+	
+  main {
+    margin: 0;
+    padding: 0;
+    min-width: 850px;
+  }
 
   .container {
-    width: 100%;
+    min-width: 900px;
     margin-left: 0;
     margin-right: 0;
   }
 
-  main {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
+
 
   aside {
     display: none;
