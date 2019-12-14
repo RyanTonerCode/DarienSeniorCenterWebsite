@@ -1,3 +1,7 @@
+/*
+This is the generic style sheet used on all the pages
+*/
+
 #fullnav {
   width: 80%;
   max-width: 80%;
@@ -14,7 +18,7 @@
 
 nav {
   height: 100%;
-  width: 100% - 210px;
+  width: calc(100% - 210px);
   text-align: center;
   background-color: #152A3D;
   font-family: 'Roboto', Verdana, Arial, sans-serif;
@@ -58,6 +62,9 @@ nav li a:hover {
   color: white;
 }
 
+/*
+Active class is used to specify the current page
+*/
 .active {
   background-color: #15648B;
 }
@@ -101,6 +108,10 @@ footer a {
 footer a:hover {
   color: goldenrod;
 }
+
+/*
+Media query section for device compatibility
+*/
 
 @media only screen and (max-width: 1300px) {
 	

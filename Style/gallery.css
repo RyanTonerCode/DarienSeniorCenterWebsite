@@ -32,12 +32,14 @@ h1,h2{
   border-radius: 25px;
 }
 
+/* Changes the background color of odd rows */
 .odd {
   background-color: aliceblue;
   border-top: 1px solid blue;
   border-bottom: 1px solid blue;
 }
 
+/*Help with scaling preference */
 .galleryimg {
   object-fit: scale-down;
   width: auto;

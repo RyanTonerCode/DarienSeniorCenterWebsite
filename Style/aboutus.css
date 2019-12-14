@@ -1,3 +1,7 @@
+/*
+About Us css is shared with FAQ css
+*/
+
 body {
   font-family: 'Roboto', Verdana, Arial, sans-serif;
   line-height: 2.0;
@@ -96,7 +100,7 @@ tr {
 
 #bannerimage {
   width: 100%;
-  background-image: url(../Images/AboutUs/Darien.jpg);
+  background-image: url(../Images/AboutUs/Darien.jpg); /*Link to header image here */
   height: 250px;
   background-color: skyblue;
   background-position: left;
